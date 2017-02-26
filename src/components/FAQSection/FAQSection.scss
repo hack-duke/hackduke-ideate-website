@@ -4,25 +4,49 @@
   padding-top: 20px;
 }
 
-.sectionText {
-  text-align: left;
-  padding-top: 9px;
-  color: $ideateText;
-  line-height: 1.4em;
-  font-size: 1.8em;
-  letter-spacing: 1px;
+  .sectionText {
+    text-align: left;
+    padding-top: 9px;
+    color: $ideateText;
+    line-height: 1.4em;
+    font-size: 1.8em;
+    letter-spacing: 1px;
+  }
+
+  .sectionHeader {
+    font-family: "Avenir", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+    font-size: 2.5em;
+    color: $ideateText;
+  }
+
+@media (max-width: $desktopBreakpoint) {
+  .sectionText {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .sectionHeader {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+
 }
 
-.link {
-  padding: 0;
-  cursor: pointer;
-}
+@media (min-width: $tabletBreakpoint) {
+  .sectionText {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
 
-.sectionHeader {
-  font-family: "Avenir", sans-serif;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-align: left;
-  font-size: 2.5em;
-  color: $ideateText;
+  .sectionHeader {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+
 }
