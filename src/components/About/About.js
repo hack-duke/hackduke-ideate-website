@@ -6,7 +6,7 @@ export const About = () => (
   <div>
     <div className={classes.about} >
       <div className={'container text-center'}>
-        <h1 className={classes.header}> HACKDUKE IS ABOUT </h1>
+        <h1 className={classes.header}> IDEATE IS ABOUT </h1>
         <AboutSection title={'COLLABORATION NOT COMPETITION.'}
           text={'HackDuke is not just about building meaningful projects. \
                 It\'s also an open forum to discuss, share and bring to life ideas \
