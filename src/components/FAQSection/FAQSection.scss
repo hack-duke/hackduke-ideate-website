@@ -6,13 +6,23 @@
 
 .sectionText {
   text-align: left;
-  padding-top: 5px;
-  color: $aboutBlack;
-  line-height: 2em;
-  font-size: 1em;
+  padding-top: 9px;
+  color: $ideateText;
+  line-height: 1.4em;
+  font-size: 1.8em;
+  letter-spacing: 1px;
 }
 
 .link {
   padding: 0;
   cursor: pointer;
+}
+
+.sectionHeader {
+  font-family: "Avenir", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: left;
+  font-size: 2.5em;
+  color: $ideateText;
 }
