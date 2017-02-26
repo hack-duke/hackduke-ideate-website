@@ -1,55 +1,34 @@
 @import 'src/styles/base';
 
-.section {
-  padding-top: 50px;
+.sectionContainer {
+  padding-top: 70px;
+  color: #979797;
 }
 
 .sectionHeader {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Avenir", sans-serif;
   text-align: left;
-  font-size: 1.5em;
-  color: $aboutBlack;
+  font-weight: bold;
+  font-size: 45px;
 }
 
 .sectionText {
+  padding-top: 5px;
+  font-family: "Avenir", sans-serif;
+  font-size: 25px;
   text-align: left;
-  padding-top: 10px;
-  color: $aboutBlack;
-  line-height: 2em;
-  font-size: 1em;
+  font-weight: light;
+  letter-spacing: 1.5px;
 }
 
-@media (min-width: $tabletBreakpoint) {
-
-  .sectionHeader {
-    text-align: center;
-    padding-bottom: 10px;
-  }
-
-  .sectionText {
-    padding-top: 0;
-  }
-
+.titleDef {
+  font-weight: normal;
+  font-size: 35px;
 }
 
-@media (min-width: $desktopBreakpoint) {
-
-  .section {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  
-  .sectionHeader {
-    text-align: right;
-    padding-right: 20px;
-    padding-bottom: 0;
-  }
-
-  .sectionText {
-    padding-right: 30px;
-    text-align: left;
-    transform: translate(0, -1px);
-  }
-
+.textQuote  {
+  padding-top: 5px;
+  text-align: right;
+  font-size: 30px;
+  color: #979797;
 }
