@@ -1,0 +1,20 @@
+sudo: false
+language: node_js
+node_js:
+- '6'
+cache:
+  directories:
+  - node_modules
+install:
+- npm install
+script:
+- npm run lint
+after_success:
+- npm run codecov
+deploy:
+  provider: heroku
+  api_key:
+    secure: PLAd9IfkghpIZLxV0ceCzbaABQxl2VIDEJNbfA1qKOGwkI713Wo3m36hnxq5t45FrmBWsWN571GBP7W+AyRp9JYNYesdjLxBBosbfUIabEzbOxSflTRrjvw5wdj8yzfwNIlxFV5xthurvUABi+UHCTajNjyimkxyq51HBnY1Kei70mY68CGvnhxNiGyglpDpBg2DFnC4SY0RCiKFSYtf4AqACo7SVOUWLinxzmGSCRqfpElazrfc/ZSMGkI5gsE45uXVjT5uF4/WPguUzq1OSxKbuThShShaKrYcejSkMbnl2NpKZuJXlTaPkRI7ymgvDj2Iu7h4Rm3nOetTAhQUuIyOUpK1F+THjhxFN1kTLghrC3X7ARUlO6gVCikRqseS8IXyQ6eJCpbECi9z5on+uTJabK+NuLSt2pWJ7mVtTjIAZqmvgQEh605VEcKt5kzq1k+NA8qtaYkCtdueNwDCp8oeT7XLwvhAX1wRZdguOQ1jXdkJ5y9OgHK1xeRt074kCkwxsV+/Qoef/cxAAjrKJ6WzXYJI+HJRh07pn1J+9QWqWHZZeBpAi5I3Et7d5ZSpfp0ZavmMcD8Lr2GpjgMFpzCnp78CelgQ1uX9Pes7cdcln/TD9GkAvpjj+7piLA2AEAdb9ne66V4lEjx1sBOYfWfJtMDWhVKXj8D2/j3Yhcc=
+  app: hackduke-code-for-good-website
+  on:
+    repo: hack-duke/hackduke-code-for-good-website

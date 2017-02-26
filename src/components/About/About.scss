@@ -1,0 +1,31 @@
+@import 'src/styles/base';
+
+.about {
+	padding: 75px 0;
+}
+
+.header {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: $headerGray;
+  letter-spacing: 5px;
+  font-size: $headerSmall;
+  margin: 0;
+}
+
+@media (min-width: $tabletBreakpoint) {
+
+  .header {
+    text-align: center;
+    font-size: $headerSmall;
+  }
+
+}
+
+@media (min-width: $desktopBreakpoint) {
+
+  .header {
+    font-size: $headerBig;
+  }
+
+}

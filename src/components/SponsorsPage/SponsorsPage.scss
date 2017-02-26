@@ -1,0 +1,81 @@
+@import 'src/styles/base';
+
+.link, .link:hover, .link:visited, .link:link, .link:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.sponsors {
+	height: 100%;
+	padding-bottom: 75px;
+	background-size: 100% 100%;
+	background-color: #F0F0F0;
+	background-repeat: no-repeat;
+}
+
+.header {
+	text-align: center;
+  color: #555459;
+  letter-spacing: 5px;
+  font-size: $headerBig;
+  padding: 75px 0 35px 0;
+  margin: 0;
+}
+
+.homeButton {
+	margin: 0 auto;
+	display: block;
+	padding: 0px;
+	font-size: 1em;
+	color: white;
+	background-color: $applyBlue;
+	border: none;
+	border-radius: 1.25em;
+	width: 8em;
+	height: 2.5em;
+}
+
+.homeButton:hover {
+  background-color: darken($applyBlue, 10%);
+}
+
+.section {
+	padding-top: 50px;
+}
+
+.logobox {
+	padding: 100px 5vw 0px 5vw;
+	width: 80vw;
+	margin: 0 auto;
+	background-size: 100% 100%;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+}
+
+.sponsorsText {
+	text-align: center;
+	padding-left: 25vw;
+	padding-right: 25vw;
+}
+
+@media (max-width: $tabletBreakpoint) {
+	
+	.sponsorsText {
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: left;
+	}
+
+}
+
+@media (max-width: $desktopBreakpoint) {
+
+	.header {
+		font-size: $headerSmall;
+	}
+
+	.logobox {
+		padding-top: 75px;
+		width: 100%;
+	}
+}
