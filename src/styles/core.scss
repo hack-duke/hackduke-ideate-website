@@ -4,6 +4,13 @@
   @import 'bootstrap/css/bootstrap.min';
   @import 'font-awesome.min';
 
+  @font-face {
+   font-family: 'Pier Sans Bold';
+   font-style: normal;
+   font-weight: 400;
+   src: local('Pier Sans Bold'), url(../fonts/pier-bold.otf) format('otf');
+ }
+
   // Some best-practice CSS that's useful for most apps
   // Just remove them if they're not what you want
   html {
@@ -27,4 +34,6 @@
   *:after {
     box-sizing: inherit;
   }
+
+
 }
