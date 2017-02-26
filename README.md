@@ -1,4 +1,4 @@
-# hackduke-website
+# hackduke-ideate-website
 
 [![Build Status](https://travis-ci.org/hack-duke/hackduke-code-for-good-website.svg?branch=master)](https://travis-ci.org/hack-duke/hackduke-code-for-good-website)
 
