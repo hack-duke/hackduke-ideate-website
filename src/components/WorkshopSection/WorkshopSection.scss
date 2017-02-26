@@ -1,0 +1,77 @@
+@import 'src/styles/base';
+
+.section {
+  padding-top: 50px;
+}
+
+.sectionHeader {
+  font-family: "Avenir", sans-serif;
+  text-align: left;
+  font-size: 3em;
+  font-weight: 400;
+  color: $workshopGrey;
+}
+
+.sectionSubheader {
+  font-family: "Avenir", sans-serif;
+  text-align: left;
+  font-size: 2.5em;
+  font-weight: 400;
+  color: $workshopGrey;
+}
+
+.sectionText {
+  text-align: left;
+  padding-top: 20px;
+  font-weight: lighter;
+  color: $workshopGrey;
+  line-height: 2em;
+  font-size: 1.5em;
+}
+
+@media (min-width: $tabletBreakpoint) {
+
+  .sectionHeader {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .sectionSubheader {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .sectionText {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+}
+
+@media (min-width: $desktopBreakpoint) {
+
+  .section {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .sectionHeader {
+    text-align: left;
+    padding-right: 20px;
+    padding-bottom: 0;
+  }
+
+  .sectionSubheader {
+    text-align: left;
+    padding-right: 20px;
+    padding-bottom: 0;
+  }
+
+  .sectionText {
+    padding-right: 30px;
+    text-align: left;
+    transform: translate(0, -1px);
+  }
+
+}
