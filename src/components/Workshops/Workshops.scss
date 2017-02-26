@@ -10,7 +10,7 @@
   color: $workshopTitle;
   letter-spacing: 5px;
   font-size: $headerSmall;
-	font-weight: bold;
+	font-weight: bolder;
   margin: 0;
 }
 
@@ -19,6 +19,7 @@
   .header {
     text-align: left;
     font-size: $headerSmall;
+		font-weight: bolder;;
   }
 
 }
@@ -27,6 +28,7 @@
 
   .header {
     font-size: $headerBig;
+		font-weight: bolder;
   }
 
 }
