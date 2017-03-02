@@ -6,6 +6,12 @@
 
 .header {
   text-align: right;
+  font-family: "Piers Sans Bold", sans-serif;
+  font-weight: bold;
+  color: #89F07C; //will be added into the global stylesheet
+  left: 0px;
+  font-size: $headerBig;
+  margin: 0;
 }
 
 @media (min-width: $tabletBreakpoint){
