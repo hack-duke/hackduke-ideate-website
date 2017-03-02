@@ -1,0 +1,21 @@
+@import 'src/styles/base';
+
+.speakers {
+  padding: 75px 0;
+}
+
+.header {
+  text-align: right;
+}
+
+@media (min-width: $tabletBreakpoint){
+  .header {
+    text-align: right;
+  }
+}
+
+@media (min-width: $desktopBreakpoint){
+  .header {
+    text-align: right;
+  }
+}
