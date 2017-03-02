@@ -1,9 +1,9 @@
 import React from 'react'
 import classes from './Speakers.scss'
 import SpeakerSection from 'components/SpeakerSection'
-import {Col,Row} from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 
-const title ='SPEAKERS'
+const title = 'SPEAKERS'
 
 export const Speakers = () => (
   <div>
@@ -15,13 +15,13 @@ export const Speakers = () => (
             <SpeakerSection name={'Speaker 1'}
               text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
               Pellentesque vestibulum tellus et sagittis feugiat. Suspendisse \
-              eu sapien sed nisl facilisis fermentum.'}/>
+              eu sapien sed nisl facilisis fermentum.'} />
           </Col>
           <Col md={6}>
             <SpeakerSection name={'Speaker 1'}
               text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
               Pellentesque vestibulum tellus et sagittis feugiat. Suspendisse \
-              eu sapien sed nisl facilisis fermentum.'}/>
+              eu sapien sed nisl facilisis fermentum.'} />
           </Col>
         </Row>
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './SpeakerSection.scss'
 import {Row} from 'react-bootstrap'
 
-export const SpeakerSection= (props) => (
+export const SpeakerSection = (props) => (
 
   <div>
     <Row className={classes.imageSection}>
