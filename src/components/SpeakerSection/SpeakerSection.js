@@ -8,7 +8,7 @@ export const SpeakerSection = (props) => (
     <div className={classes.sectionContainer}>
       <Row className={classes.imageContainer}>
         <div className={classes.image}>
-          <img src='hackkitty.png' alt='placeholder'/>
+          <img src='hackkitty.png' alt='placeholder' />
         </div>
       </Row>
       <Row className={classes.contentSection}>

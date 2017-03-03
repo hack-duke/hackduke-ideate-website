@@ -10,11 +10,15 @@
   text-align: right;
   font-family: "Piers Sans Bold", sans-serif;
   font-weight: bold;
-  color: $speakersTitle; //will be added into the global stylesheet
+  color: $speakersTitle;
   font-size: $headerBig;
   letter-spacing: 0px;
   opacity: 0.9;
   margin: 0;
+}
+
+.sectionContainer {
+  float: left; //apparently this doesn't work to shift the contents left.
 }
 
 @media (max-width: $tabletBreakpoint){

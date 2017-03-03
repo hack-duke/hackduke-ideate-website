@@ -10,20 +10,22 @@ export const Speakers = () => (
     <div className={classes.speakers}>
       <div className={'container text-center'}>
         <h1 className={classes.header}>{title}</h1>
-        <Row>
-          <Col md={6}>
-            <SpeakerSection name={'Person 1'}
-              text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-              Pellentesque vestibulum tellus et sagittis feugiat. Suspendisse \
-              eu sapien sed nisl facilisis fermentum.'} />
-          </Col>
-          <Col md={6}>
-            <SpeakerSection name={'Person 1'}
-              text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-              Pellentesque vestibulum tellus et sagittis feugiat. Suspendisse \
-              eu sapien sed nisl facilisis fermentum.'} />
-          </Col>
-        </Row>
+        <div className={classes.sectionContainer}>
+          <Row>
+            <Col md={6}>
+              <SpeakerSection name={'Person 1'}
+                text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
+                Pellentesque vestibulum tellus et sagittis feugiat. Suspendisse \
+                eu sapien sed nisl facilisis fermentum.'} />
+            </Col>
+            <Col md={6}>
+              <SpeakerSection name={'Person 1'}
+                text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
+                Pellentesque vestibulum tellus et sagittis feugiat. Suspendisse \
+                eu sapien sed nisl facilisis fermentum.'} />
+            </Col>
+          </Row>
+        </div>
       </div>
     </div>
   </div>
