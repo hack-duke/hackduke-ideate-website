@@ -1,0 +1,40 @@
+@import 'src/styles/base';
+
+.section {
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  font-family: "Avenir", sans-serif;
+  text-align: left;
+  font-size: $headerMedium;
+  color: $ideateText;
+  font-weight: bold;
+}
+
+.sectionSubheader {
+  font-family: "Avenir", sans-serif;
+  text-align: left;
+  font-size: $headerSmall;
+  color: $ideateText;
+  font-weight: bold;
+}
+
+.sectionText {
+  text-align: left;
+  padding-top: 5px;
+  color: $ideateText;
+  line-height: 1.4em;
+  font-size: $infoSize;
+  letter-spacing: 1px;
+  padding-right: 100px;
+}
+
+@media (max-width: $tabletBreakpoint) {
+  
+  .sectionText {
+    padding-right: 0px;
+  }
+  
+}

@@ -31,6 +31,26 @@ export const FAQ = () => (
               Suspendisse eu sapien sed nisl facilisis fermentum.'} />
         </Col>
       </Row>
+      <Row style={{'paddingTop': '30px'}}>
+        <Col md={4}>
+          <FAQSection title={'Lorem ipsum dolor si amet?'}
+            text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
+            Pellentesque vestibulum tellus et sagittis feugiat. \
+            Suspendisse eu sapien sed nisl facilisis fermentum.'} />
+        </Col>
+        <Col md={4}>
+          <FAQSection title={'Lorem ipsum dolor si amet?'}
+            text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
+             Pellentesque vestibulum tellus et sagittis feugiat. \
+              Suspendisse eu sapien sed nisl facilisis fermentum.'} />
+        </Col>
+        <Col md={4}>
+          <FAQSection title={'Lorem ipsum dolor si amet?'}
+            text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
+             Pellentesque vestibulum tellus et sagittis feugiat. \
+              Suspendisse eu sapien sed nisl facilisis fermentum.'} />
+        </Col>
+      </Row>
     </div>
   </div>
 )

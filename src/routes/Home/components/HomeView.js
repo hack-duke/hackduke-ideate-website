@@ -1,10 +1,9 @@
 import React from 'react'
 import Scroll from 'react-scroll'
-// import classes from './HomeView.scss'
 import HeroPage from 'components/HeroPage'
-import TracksPage from 'components/TracksPage'
 import About from 'components/About'
 import Speakers from 'components/Speakers'
+import Workshops from 'components/Workshops'
 import FAQ from 'components/FAQ'
 import SponsorsPage from 'components/SponsorsPage'
 import Social from 'components/Social'
@@ -16,8 +15,8 @@ export const HomeView = () => (
     <About />
     <Scroll.Element name='speakersScrollPoint'></Scroll.Element>
     <Speakers />
-    <Scroll.Element name='tracksScrollPoint'></Scroll.Element>
-    <TracksPage />
+    <Scroll.Element name='workshopsScrollPoint'></Scroll.Element>
+    <Workshops />
     <Scroll.Element name='faqScrollPoint'></Scroll.Element>
     <FAQ />
     <Scroll.Element name='sponsorsScrollPoint'></Scroll.Element>
