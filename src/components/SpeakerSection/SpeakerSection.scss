@@ -1,9 +1,45 @@
 @import 'src/styles/base';
 
-@media (min-width: $tabletBreakpoint) {
-
+.sectionContainer {
+  padding-top: 70px;
+  color: #979797;
+}
+.imageContainer {
+  // text-align: center;
+  .image{
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    margin: auto;
+  }
 }
 
-@media (min-width: $desktopBreakpoint) {
-
+.contentSection {
+  padding-top: 50px;
 }
+
+.sectionHeader {
+  font-family: "Avenir", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: $headerMedium;
+}
+
+.sectionText {
+  padding-top: 5px;
+  font-family: "Avenir", sans-serif;
+  font-size: $infoSize;
+  text-align: center;
+  font-weight: light;
+  width: 75%;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+  margin:0px auto;
+}
+@media (max-width: $tabletBreakpoint) {
+  .header {
+    text-align: center;
+  }
+}
+

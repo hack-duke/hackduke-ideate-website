@@ -12,13 +12,13 @@ export const Speakers = () => (
         <h1 className={classes.header}>{title}</h1>
         <Row>
           <Col md={6}>
-            <SpeakerSection name={'Speaker 1'}
+            <SpeakerSection name={'Person 1'}
               text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
               Pellentesque vestibulum tellus et sagittis feugiat. Suspendisse \
               eu sapien sed nisl facilisis fermentum.'} />
           </Col>
           <Col md={6}>
-            <SpeakerSection name={'Speaker 1'}
+            <SpeakerSection name={'Person 1'}
               text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
               Pellentesque vestibulum tellus et sagittis feugiat. Suspendisse \
               eu sapien sed nisl facilisis fermentum.'} />
