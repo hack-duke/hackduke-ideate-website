@@ -7,32 +7,35 @@
 
 .sponsors {
 	height: 100%;
-	padding-bottom: 75px;
+	padding-top: 75px;
+	padding-bottom: 25px;
+	margin: 0 auto;
+	width: 75%;
 	background-size: 100% 100%;
-	background-color: #F0F0F0;
 	background-repeat: no-repeat;
 }
 
 .header {
-	text-align: center;
-  color: #555459;
-  letter-spacing: 5px;
+  font-family: "Pier Sans Bold", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: $sponsorsColor;
+  letter-spacing: 0px;
   font-size: $headerBig;
-  padding: 75px 0 35px 0;
   margin: 0;
 }
 
 .homeButton {
-	margin: 0 auto;
-	display: block;
-	padding: 0px;
-	font-size: 1em;
-	color: white;
-	background-color: $applyBlue;
-	border: none;
-	border-radius: 1.25em;
-	width: 8em;
-	height: 2.5em;
+  margin: 0 auto;
+  display: block;
+  padding: 0px;
+  font-size: 1em;
+  color: white;
+  background-color: $applyBlue;
+  border: none;
+  border-radius: 1.25em;
+  width: 8em;
+  height: 2.5em;
 }
 
 .homeButton:hover {
@@ -40,12 +43,11 @@
 }
 
 .section {
-	padding-top: 50px;
+	padding-top: 25px;
 }
 
 .logobox {
-	padding: 100px 5vw 0px 5vw;
-	width: 80vw;
+	padding: 100px 0vw 0px 0vw;
 	margin: 0 auto;
 	background-size: 100% 100%;
 	background-color: #FFFFFF;
@@ -60,6 +62,10 @@
 
 @media (max-width: $tabletBreakpoint) {
 	
+  .header {
+    font-size: $headerMedium;
+  }
+  
 	.sponsorsText {
 		padding-left: 15px;
 		padding-right: 15px;
@@ -70,12 +76,9 @@
 
 @media (max-width: $desktopBreakpoint) {
 
-	.header {
-		font-size: $headerSmall;
-	}
 
 	.logobox {
-		padding-top: 75px;
+		padding-top: 100px;
 		width: 100%;
 	}
 }

@@ -29,13 +29,13 @@ class Header extends React.Component {
           <Navbar.Collapse>
             <Nav>
               <NavItem className={classes.navItem} onClick={() =>
-                this.scrollToElement('aboutScrollPoint')}>ABOUT</NavItem>
+                this.scrollToElement('aboutScrollPoint')}>About</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
-                this.scrollToElement('tracksScrollPoint')}>TRACKS</NavItem>
+                this.scrollToElement('workshopsScrollPoint')}>Workshops</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
-                this.scrollToElement('faqScrollPoint')}>FAQS</NavItem>
+                this.scrollToElement('faqScrollPoint')}>FAQ</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
-                this.scrollToElement('sponsorsScrollPoint')}>SPONSORS</NavItem>
+                this.scrollToElement('sponsorsScrollPoint')}>Sponsors</NavItem>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

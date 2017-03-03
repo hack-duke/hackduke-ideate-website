@@ -2,75 +2,39 @@
 
 .section {
   padding-top: 50px;
+  margin: 0 auto;
 }
 
 .sectionHeader {
   font-family: "Avenir", sans-serif;
   text-align: left;
-  font-size: 2.8em;
-  color: $workshopGrey;
+  font-size: $headerMedium;
+  color: $ideateText;
   font-weight: bold;
 }
 
 .sectionSubheader {
   font-family: "Avenir", sans-serif;
   text-align: left;
-  font-size: 2.3em;
-  color: $workshopGrey;
+  font-size: $headerSmall;
+  color: $ideateText;
   font-weight: bold;
 }
 
 .sectionText {
   text-align: left;
-  padding-top: 20px;
-  color: $workshopGrey;
-  line-height: 1.5em;
-  font-size: 1.5em;
+  padding-top: 5px;
+  color: $ideateText;
+  line-height: 1.4em;
+  font-size: $infoSize;
+  letter-spacing: 1px;
+  padding-right: 100px;
 }
 
-@media (min-width: $tabletBreakpoint) {
-
-  .sectionHeader {
-    text-align: center;
-    padding-bottom: 10px;
-  }
-
-  .sectionSubheader {
-    text-align: center;
-    padding-bottom: 10px;
-  }
-
+@media (max-width: $tabletBreakpoint) {
+  
   .sectionText {
-    padding-top: 20px;
-    text-align: center;
+    padding-right: 0px;
   }
-
-}
-
-@media (min-width: $desktopBreakpoint) {
-
-  .section {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .sectionHeader {
-    text-align: left;
-    padding-right: 20px;
-    padding-bottom: 0;
-  }
-
-  .sectionSubheader {
-    text-align: left;
-    padding-right: 20px;
-    padding-bottom: 0;
-  }
-
-  .sectionText {
-    padding-right: 30px;
-    text-align: left;
-    transform: translate(0, -1px);
-  }
-
+  
 }

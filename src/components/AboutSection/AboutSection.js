@@ -5,18 +5,20 @@ import { Col, Row } from 'react-bootstrap'
 export const AboutSection = (props) => (
 
   <div>
-    <Row className={classes.section}>
-      <Col md={4}>
+      <div className={classes.sectionContainer}>
         <div className={classes.sectionHeader}>
-          {props.title}
+            {props.title}
+            <span className={classes.titleDef}>
+              {props.titleDef}
+            </span>
         </div>
-      </Col>
-      <Col md={8}>
         <div className={classes.sectionText}>
           {props.text}
         </div>
-      </Col>
-    </Row>
+        <div className={classes.textQuote}>
+          {props.textAuthor}
+        </div>
+      </div>
   </div>
 )
 
