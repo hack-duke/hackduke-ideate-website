@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './Social.scss'
-import mlh from 'static/sponsors/mlh.png'
+// import mlh from 'static/sponsors/mlh.png'
 
 export const Social = () => (
   <div>
