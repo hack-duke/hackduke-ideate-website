@@ -1,7 +1,7 @@
 @import 'src/styles/base';
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Avenir", sans-serif;
 }
 
 .hero {
@@ -21,6 +21,21 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-50%);
 }
 
+.header {
+  text-align: left;
+  color: $mainColor;
+  font-size: $headerBig;
+}
+
+.subheader {
+  color: white;
+  line-height: 1.5em;
+  padding: 1.5em 0 1em 0;
+  font-size: 2vh;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  text-align: left;
+}
 img {
   display: block;
   margin: auto;
@@ -43,7 +58,7 @@ img {
   margin: auto;
 }
 
-.loginButton {
+.registerButton {
   font-size: 2vh;
   color: white;
   background-color: $applyBlue;
@@ -76,12 +91,12 @@ img {
   width: 20vh;
 }
 
-.applyLink, .applyLink:hover, .applyLink:visited, .applyLink:link, .applyLink:active {
+.registerLink, .registerLink:hover, .registerLink:visited, .registerLink:link, .registerLink:active {
   text-decoration: none;
   color: #FFFFFF;
 }
 
-.loginButton:hover {
+.registerButton:hover {
   background-color: darken($applyBlue, 10%);
 }
 
