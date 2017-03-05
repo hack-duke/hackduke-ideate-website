@@ -8,12 +8,12 @@ export const HeroPage = () => (
         <Col md={9}>
           <div className={classes.header}>IDEATE</div>
           <div className={classes.subheader}>
-              The student innovation & design conference <br />
-              April 15, 2017 @ Duke University
+            The student innovation & design conference <br />
+            April 15, 2017 @ Duke University
           </div>
         </Col>
         <Col md={3}>
-           <img className={classes.lightbulb} src='lightbulb.png' alt='placeholder' />
+          <img className={classes.lightbulb} src='lightbulb.png' alt='placeholder' />
         </Col>
       </Row>
       <Row>
