@@ -1,6 +1,6 @@
 @import 'src/styles/base';
 
-.about {
+.workshops {
 	padding: 75px 0;
   margin: 0 auto;
   width: 75%;
@@ -8,12 +8,11 @@
 
 .header {
   font-family: "Pier Sans Bold", sans-serif;
-  text-align: center;
-  color: $mainColor;
-  opacity: 0.9;
-  font-weight: bold;
-  font-size: $headerBig;
+  text-align: left;
+  color: $workshopTitle;
   letter-spacing: 0px;
+  font-size: $headerBig;
+	font-weight: bolder;
   margin: 0;
 }
 

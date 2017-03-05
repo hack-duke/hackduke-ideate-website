@@ -1,13 +1,33 @@
 @import 'src/styles/base';
 
 .faq {
-  padding: 75px 10%;
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 75%;
 }
 
 @media (max-width: $tabletBreakpoint) {
 
   .faq {
-    padding: 75px 15px;
+    padding: 75px 0;
   }
 
+}
+
+.header {
+  font-family: "Pier Sans Bold", sans-serif;
+  font-weight: bold;
+  text-align: right;
+  color: $headerFAQ;
+  letter-spacing: 0px;
+  font-size: $headerBig;
+  margin: 0;
+}
+
+@media (max-width: $tabletBreakpoint) {
+  
+  .header {
+    font-size: $headerMedium;
+  }
+  
 }
