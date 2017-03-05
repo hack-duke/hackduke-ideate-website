@@ -1,6 +1,4 @@
-import React from 'react'
 import regclasses from '../Registration/Registration.scss'
-import { Col, Row } from 'react-bootstrap'
 
 const title = 'Registration'
 
