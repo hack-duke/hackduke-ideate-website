@@ -6,86 +6,97 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
   /*50px is navBar height*/
+  // margin-top: 50px;
+  // height: calc(100vh - 50px);
+  // background-image: url('static/lightbulb.png');
+  // background-size: 100% 100%;
+  // background-repeat: no-repeat;
   margin-top: 50px;
-  height: calc(100vh - 50px);
-  background-image: url('static/landing.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-color: #808080; //placeholder background
+  padding: 50px;
 }
 
-.mainText {
-  height: auto;
-  margin: auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+// .mainText {
+//   height: auto;
+//   margin: auto;
+//   position: relative;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   text-align: center;
+// }
+
+.headerSection {
+  padding-top: 200px;
+  margin-top: 200px;
+  align-content: center;
+
+}
+
+.lightbulb {
+  display: block;
+  height: 500px;
+  width: 500px;
 }
 
 .header {
   text-align: left;
+  font-family: "Avenir", sans-serif;
   color: $mainColor;
-  font-size: $headerBig;
+  font-size: 12em;
+  font-weight: bolder;
+  opacity: 0.9;
+  letter-spacing: 0px;
+  margin: 0 auto;
+
 }
 
 .subheader {
   color: white;
+  font-family: "Avenir", sans-serif;
   line-height: 1.5em;
   padding: 1.5em 0 1em 0;
-  font-size: 2vh;
+  font-size: $headerMedium;
+  font-weight: bold;
   letter-spacing: 1px;
   margin: 0 auto;
   text-align: left;
 }
-img {
-  display: block;
-  margin: auto;
-  height: 25vh;
-  width: 34.25vh;
-}
-
-.hero h6 {
-  color: white;
-  line-height: 1.5em;
-  padding: 1.5em 0 1em 0;
-  font-size: 2vh;
-  letter-spacing: 1px;
-  margin: 0 auto;
-  text-align: center;
-}
 
 .buttonDiv {
-  width: 20vh;
   margin: auto;
 }
 
 .registerButton {
-  font-size: 2vh;
-  color: white;
-  background-color: $applyBlue;
-  border: none;
-  padding: 0;
-  border-radius: 2.85vh;
-  width: 20vh;
-  height: 5vh;
+  font-size: 6vh;
+  font-color: $ideateText;
+  font-weight: bold;
+  font-family: "Avenir", sans-serif;
+  border: solid 7px $mainColor;
+  padding: 0px;
+  width: 40vh;
+  height: 15vh;
   margin: 0 auto 15px auto;
   display: block;
+  opacity: 0.9;
+  letter-spacing: 2px;
+  line-height: 1.4em;
 }
 
-.homeButton {
-  font-size: 2vh;
-  color: $applyBlue;
-  background-color: #FFFFFF;
-  border-color: $applyBlue;
-  border-width: 0px;
-  border-style: solid;
-  padding: 0px;
-  padding-top: 2px;
-  border-radius: 2.85vh;
-  width: 20vh;
-  height: 5vh;
-  margin: 0 auto;
-  display: block;
-}
+// .homeButton {
+//   font-size: 2vh;
+//   color: $applyBlue;
+//   background-color: #FFFFFF;
+//   border-color: $applyBlue;
+//   border-width: 0px;
+//   border-style: solid;
+//   padding: 0px;
+//   padding-top: 2px;
+//   border-radius: 2.85vh;
+//   width: 20vh;
+//   height: 5vh;
+//   margin: 0 auto;
+//   display: block;
+// }
 
 .mainText > a {
   width: 20vh;
@@ -97,11 +108,12 @@ img {
 }
 
 .registerButton:hover {
-  background-color: darken($applyBlue, 10%);
-}
-
-.homeButton:hover {
-  color: #FFF;
-  background-color: $applyBlue;
+  background-color: darken(#808080, 10%);
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
 }
+
+// .homeButton:hover {
+//   color: #FFF;
+//   background-color: $applyBlue;
+//   transition: background-color 0.2s ease-out, color 0.2s ease-out;
+// }
