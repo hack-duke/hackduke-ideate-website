@@ -10,6 +10,6 @@ export const Registration = () => (
       Register Now
     </div>
   </div>
- )
+  )
 
 export default Registration
