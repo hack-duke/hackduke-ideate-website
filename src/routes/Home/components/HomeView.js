@@ -6,17 +6,21 @@ import Workshops from 'components/Workshops'
 import FAQ from 'components/FAQ'
 import SponsorsPage from 'components/SponsorsPage'
 import Social from 'components/Social'
+import classes from './HomeView.scss'
 
 export const HomeView = () => (
   <div>
     <HeroPage />
     <Scroll.Element name='aboutScrollPoint'></Scroll.Element>
     <About />
+    <img src='Section 2 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}}/>
     <Scroll.Element name='workshopsScrollPoint'></Scroll.Element>
     <Workshops />
     <Scroll.Element name='faqScrollPoint'></Scroll.Element>
+    <img src='Section 3 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}}/>
     <FAQ />
     <Scroll.Element name='sponsorsScrollPoint'></Scroll.Element>
+    <img src='Section 1 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}}/>
     <SponsorsPage />
     <Social />
   </div>
