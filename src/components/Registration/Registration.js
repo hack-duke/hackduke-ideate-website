@@ -1,3 +1,4 @@
+import React from 'react'
 import regclasses from '../Registration/Registration.scss'
 
 const title = 'Registration'
