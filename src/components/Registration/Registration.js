@@ -3,10 +3,10 @@ import regclasses from '../Registration/Registration.scss'
 
 export const Registration = () => (
   <div>
-    <div className ={regclasses.ready}>
+    <div className={regclasses.ready}>
       Ready to go?
     </div>
-    <div className = {regclasses.register}>
+    <div className={regclasses.register}>
       Register Now
     </div>
   </div>
