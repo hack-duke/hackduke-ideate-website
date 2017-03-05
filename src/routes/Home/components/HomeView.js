@@ -4,6 +4,7 @@ import HeroPage from 'components/HeroPage'
 import About from 'components/About'
 import Workshops from 'components/Workshops'
 import FAQ from 'components/FAQ'
+import Registration from 'components/Registration'
 import SponsorsPage from 'components/SponsorsPage'
 import Social from 'components/Social'
 
@@ -16,6 +17,7 @@ export const HomeView = () => (
     <Workshops />
     <Scroll.Element name='faqScrollPoint'></Scroll.Element>
     <FAQ />
+    <Registration />
     <Scroll.Element name='sponsorsScrollPoint'></Scroll.Element>
     <SponsorsPage />
     <Social />
