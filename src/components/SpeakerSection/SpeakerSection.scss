@@ -4,15 +4,13 @@
   padding-top: 70px;
   color: #979797;
 }
-.imageContainer {
-  // text-align: center;
-  .image{
-    display: block;
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    margin: auto;
-  }
+
+.image{
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  margin: auto;
 }
 
 .contentSection {
@@ -37,6 +35,7 @@
   line-height: 1.4em;
   margin:0px auto;
 }
+
 @media (max-width: $tabletBreakpoint) {
   .header {
     text-align: center;
