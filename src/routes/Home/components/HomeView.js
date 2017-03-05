@@ -14,17 +14,17 @@ export const HomeView = () => (
     <HeroPage />
     <Scroll.Element name='aboutScrollPoint'></Scroll.Element>
     <About />
-    <img src='Section 1 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}}/>
+    <img src='Section 1 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <Scroll.Element name='speakersScrollPoint'></Scroll.Element>
     <Speakers />
     <img src='Section 2 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}}/>
     <Scroll.Element name='workshopsScrollPoint'></Scroll.Element>
     <Workshops />
     <Scroll.Element name='faqScrollPoint'></Scroll.Element>
-    <img src='Section 3 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}}/>
+    <img src='Section 3 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <FAQ />
     <Scroll.Element name='sponsorsScrollPoint'></Scroll.Element>
-    <img src='Section 1 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}}/>
+    <img src='Section 1 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <SponsorsPage />
     <Social />
   </div>
