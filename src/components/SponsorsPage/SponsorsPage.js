@@ -8,7 +8,6 @@ import dsg from 'static/sponsors/dsg.png'
 import dukecs from 'static/sponsors/dukecs.png'
 import pratt from 'static/sponsors/pratt.png'
 
-
 class SponsorsPage extends React.Component {
 
   constructor () {
