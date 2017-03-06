@@ -18,7 +18,7 @@ export const HomeView = () => (
     <img src='Section 1 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <Scroll.Element name='speakersScrollPoint'></Scroll.Element>
     <Speakers />
-    <img src='Section 2 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}}/>
+    <img src='Section 2 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <Scroll.Element name='workshopsScrollPoint'></Scroll.Element>
     <Workshops />
     <Scroll.Element name='faqScrollPoint'></Scroll.Element>
