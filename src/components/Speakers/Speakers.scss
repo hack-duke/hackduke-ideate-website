@@ -1,0 +1,26 @@
+@import 'src/styles/base';
+
+.speakers {
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.header {
+  text-align: right;
+  font-family: "Piers Sans Bold", sans-serif;
+  font-weight: bold;
+  color: $speakersTitle;
+  font-size: $headerBig;
+  letter-spacing: 0px;
+  opacity: 0.9;
+  margin: 0;
+}
+
+@media (max-width: $tabletBreakpoint){
+  .header {
+    font-size: $headerMedium;
+  }
+}
+
+
