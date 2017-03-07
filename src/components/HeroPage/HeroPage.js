@@ -4,6 +4,11 @@ import { Col, Row } from 'react-bootstrap'
 export const HeroPage = () => (
   <div>
     <div className={classes.hero}>
+      <div className={classes.videoBlock}>
+        <video preload="preload" className={classes.video} autoPlay loop>
+          <source src="Ideate2k17.mp4" type="video/mp4"></source>
+        </video>
+      </div>
       <Row clasName={classes.headerSection}>
         <Col md={9}>
           <div className={classes.header}>IDEATE</div>

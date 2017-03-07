@@ -6,30 +6,33 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
   /*50px is navBar height*/
-  // margin-top: 50px;
-  // height: calc(100vh - 50px);
-  // background-image: url('static/lightbulb.png');
-  // background-size: 100% 100%;
-  // background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   margin-top: 50px;
-  background-color: #808080; //placeholder background
-  padding: 50px;
+  // background-color: #808080; //placeholder background
+  padding-top: 300px;
+  padding-bottom: 100px;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
-// .mainText {
-//   height: auto;
-//   margin: auto;
-//   position: relative;
-//   top: 50%;
-//   transform: translateY(-50%);
-//   text-align: center;
-// }
+.videoBlock {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
 
 .headerSection {
   padding-top: 200px;
   margin-top: 200px;
-  align-content: center;
-
 }
 
 .lightbulb {
@@ -90,26 +93,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4em;
 }
 
-// .homeButton {
-//   font-size: 2vh;
-//   color: $applyBlue;
-//   background-color: #FFFFFF;
-//   border-color: $applyBlue;
-//   border-width: 0px;
-//   border-style: solid;
-//   padding: 0px;
-//   padding-top: 2px;
-//   border-radius: 2.85vh;
-//   width: 20vh;
-//   height: 5vh;
-//   margin: 0 auto;
-//   display: block;
-// }
-
-// .mainText > a {
-//   width: 20vh;
-// }
-
 .registerLink, .registerLink:hover, .registerLink:visited, .registerLink:link, .registerLink:active {
   text-decoration: none;
   color: #FFFFFF;
@@ -119,9 +102,3 @@ h1, h2, h3, h4, h5, h6 {
   background-color: darken(#808080, 10%);
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
 }
-
-// .homeButton:hover {
-//   color: #FFF;
-//   background-color: $applyBlue;
-//   transition: background-color 0.2s ease-out, color 0.2s ease-out;
-// }
