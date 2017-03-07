@@ -6,23 +6,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
   /*50px is navBar height*/
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
   margin-top: 50px;
-  // background-color: #808080; //placeholder background
-  padding-top: 300px;
-  padding-bottom: 100px;
-  width: 100%;
-  height: 100%;
+  padding-top: 200px;
   position: relative;
 }
 
 .videoBlock {
-  width: 100%;
-  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  overflow: hidden;
 }
 
 .video {
@@ -30,16 +23,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
-.headerSection {
-  padding-top: 200px;
-  margin-top: 200px;
-}
-
 .lightbulb {
   display: block;
-  height: 550px;
+  height: 500px;
   width: 650px;
-  transform: translate(-40%,-10%);
+  transform: translate(-60%,-25%);
 }
 
 .header {
@@ -48,34 +36,31 @@ h1, h2, h3, h4, h5, h6 {
   color: $mainColor;
   font-size: 12em;
   font-weight: bolder;
-  opacity: 0.9;
+  opacity: 0.8;
   letter-spacing: 0px;
   margin: 0 auto;
   padding-bottom: 0;
-  padding-top: 50px;
-  padding-left: 50px;
-  margin-top: 100px;
-  margin-bottom: 0;
+  padding-left: 100px;
 }
 
 .subheader {
   color: white;
   font-family: "Avenir", sans-serif;
-  line-height: 1.5em;
-  padding-bottom: 50px;
-  padding-left: 50px;
+  line-height: 1.2em;
+  padding-left: 100px;
   padding-top: 0;
+  padding-bottom: 0;
   font-size: $headerMedium;
   font-weight: bold;
   letter-spacing: 1px;
   margin: 0 auto;
   text-align: left;
-  margin-top: 0;
+  transform: translateY(-10%); //need to be changed
 }
 
-.buttonDiv {
-  margin: auto;
-}
+// .buttonDiv {
+//   margin: auto;
+// }
 
 .registerButton {
   font-size: 6vh;
@@ -90,7 +75,8 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   opacity: 0.9;
   letter-spacing: 2px;
-  line-height: 1.4em;
+  transform: translateY(-30%); //need to be changed
+  background: none;
 }
 
 .registerLink, .registerLink:hover, .registerLink:visited, .registerLink:link, .registerLink:active {
