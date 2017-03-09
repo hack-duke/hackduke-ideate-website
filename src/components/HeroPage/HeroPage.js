@@ -9,7 +9,7 @@ export const HeroPage = () => (
           <source src='Ideate2k17.mp4' type='video/mp4'></source>
         </video>
       </div>
-      <div clasName={classes.headerSection}>
+      <div className={classes.headerSection}>
         <Col md={10}>
           <div className={classes.header}>IDEATE</div>
           <div className={classes.subheader}>
@@ -22,7 +22,7 @@ export const HeroPage = () => (
         </Col>
       </div>
       <div className={classes.buttonDiv}>
-        <a className={classes.registerLink} eventKey={1} href={'http://my.hackduke.org/login'}>
+        <a className={classes.registerLink}  href={'http://my.hackduke.org/login'}>
           <button className={classes.registerButton}> Register </button>
         </a>
       </div>

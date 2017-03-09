@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero {
   /*50px is navBar height*/
   margin-top: 50px;
-  padding-top: 200px;
+  padding-top: 250px;
   position: relative;
 }
 
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   height: 500px;
   width: 650px;
-  transform: translate(-60%,-25%);
+  transform: translate(-60%,-40%);
 }
 
 .header {
@@ -40,14 +40,14 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0px;
   margin: 0 auto;
   padding-bottom: 0;
-  padding-left: 100px;
+  padding-left: 110px;
 }
 
 .subheader {
   color: white;
   font-family: "Avenir", sans-serif;
   line-height: 1.2em;
-  padding-left: 100px;
+  padding-left: 110px;
   padding-top: 0;
   padding-bottom: 0;
   font-size: $headerMedium;
@@ -55,12 +55,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   margin: 0 auto;
   text-align: left;
-  transform: translateY(-10%); //need to be changed
+  transform: translateY(-40%); //need to be changed
 }
-
-// .buttonDiv {
-//   margin: auto;
-// }
 
 .registerButton {
   font-size: 6vh;
@@ -71,11 +67,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   width: 40vh;
   height: 15vh;
-  margin: 0 auto 15px auto;
+  margin: 0 auto 50px auto;
   display: block;
   opacity: 0.9;
   letter-spacing: 2px;
-  transform: translateY(-30%); //need to be changed
+  transform: translateY(-100%); //need to be changed
   background: none;
 }
 
