@@ -22,7 +22,7 @@ export const HeroPage = () => (
         </Col>
       </div>
       <div className={classes.buttonDiv}>
-        <a className={classes.registerLink}  href={'http://my.hackduke.org/login'}>
+        <a className={classes.registerLink} href={'http://my.hackduke.org/login'}>
           <button className={classes.registerButton}> Register </button>
         </a>
       </div>
