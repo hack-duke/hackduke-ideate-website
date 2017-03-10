@@ -13,8 +13,8 @@ export const About = () => (
         a range of ideas.'}
         textAuthor={'- Stanford Design School'} />
       <AboutSection title={'Ideate @ Duke is...'}
-        text={'A day filled with awesome speakers and workshops to explore how design and techonology \
-        interacts. Observing and applying design and techonology to address social good.'} />
+        text={'A day filled with awesome speakers and workshops to explore how design and technology \
+        interacts. Observing and applying design and technology to address social good.'} />
     </div>
   </div>
 )
