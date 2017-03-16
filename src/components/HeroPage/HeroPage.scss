@@ -1,14 +1,11 @@
 @import 'src/styles/base';
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Avenir", sans-serif;
-}
-
 .hero {
   /*50px is navBar height*/
   margin-top: 50px;
   padding-top: 250px;
   position: relative;
+  font-family: "Avenir", sans-serif;
 }
 
 .videoBlock {
@@ -32,7 +29,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
   text-align: left;
-  font-family: "Avenir", sans-serif;
   color: $mainColor;
   font-size: 12em;
   font-weight: bolder;
@@ -45,10 +41,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .subheader {
   color: white;
-  font-family: "Avenir", sans-serif;
   line-height: 1.2em;
   padding-left: 110px;
-  padding-top: 0;
   padding-bottom: 0;
   font-size: $headerMedium;
   font-weight: bold;
@@ -62,7 +56,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 6vh;
   font-color: $ideateText;
   font-weight: bold;
-  font-family: "Avenir", sans-serif;
   border: solid 7px $mainColor;
   padding: 0;
   width: 40vh;
@@ -83,4 +76,53 @@ h1, h2, h3, h4, h5, h6 {
 .registerButton:hover {
   background-color: darken(#808080, 10%);
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+@media (max-width: $tabletBreakpoint) {
+  .hero {
+    background-color: #808080; //placeholder background
+    height: 55vh;
+    padding: 50px 0;
+    margin: 0 auto;
+  }
+  .header {
+    text-align: left;
+    font-size: $headerBig;
+    padding: 0;
+    padding-top: 50px;
+  }
+  .subheader {
+    line-height: 1em;
+    font-size: $infoSize;
+    text-align: left;
+    transform: none;
+    padding: 0;
+  }
+  .lightbulb {
+    display: none;
+    visibility: collapse;
+    transform: none;
+  }
+  .videoBlock {
+    display: none;
+    visibility: collapse;
+  }
+  .video {
+    display: none;
+    visibility: collapse;
+  }
+  .buttonDiv {
+    padding-top: 50px;
+  }
+  .registerButton {
+    font-size: 3vh;
+    border: solid 5px $mainColor;
+    padding: 0;
+    width: 20vh;
+    height: 7vh;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    background: none;
+    transform: none;
+  }
 }
