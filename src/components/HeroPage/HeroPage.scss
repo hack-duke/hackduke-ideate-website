@@ -100,6 +100,7 @@
   }
   .header {
     padding-left: 30px;
+    font-size: 10em;
   }
   .subheader {
     padding-left: 30px;
@@ -107,7 +108,6 @@
     padding-top: 0;
     font-size: $headerSmall;
   }
-
 }
 
 @media (max-width: $tabletBreakpoint) {
@@ -128,9 +128,6 @@
     padding-bottom: 20px;
   }
 
-  .buttonDiv {
-    padding-top: 20px;
-  }
   .registerButton {
     font-size: 3vh;
     border: solid 5px $mainColor;
