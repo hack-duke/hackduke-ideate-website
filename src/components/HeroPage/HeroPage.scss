@@ -57,7 +57,7 @@
   letter-spacing: 1px;
   margin: 0 auto;
   text-align: left;
-  // transform: translateY(-40%); //need to be changed
+  // transform: translateY(-40%); //should it be higher?
 }
 
 .buttonDiv {
@@ -75,7 +75,7 @@
   display: block;
   opacity: 0.9;
   letter-spacing: 2px;
-  // transform: translateY(-100%); //need to be changed
+  // transform: translateY(-100%); //should it be higher?
   background: none;
 }
 
@@ -90,13 +90,21 @@
 }
 
 @media (max-width: 1300px) {
+  .hero {
+    padding-top: 0;
+  }
   .lightbulb {
     display: none;
     visibility: collapse;
     transform: none;
   }
+  .header {
+    padding-left: 30px;
+  }
   .subheader {
+    padding-left: 30px;
     padding-bottom: 20px;
+    padding-top: 0;
     font-size: $headerSmall;
   }
 
@@ -104,7 +112,6 @@
 
 @media (max-width: $tabletBreakpoint) {
   .hero {
-    // background-color: #808080; //placeholder background
     height: 55vh;
     padding: 50px 0;
     margin: 0 auto;
@@ -117,19 +124,10 @@
   .subheader {
     line-height: 1em;
     font-size: $infoSize;
-    // transform: none;
     padding: 0;
     padding-bottom: 20px;
   }
 
-  // .videoBlock {
-  //   display: none;
-  //   visibility: collapse;
-  // }
-  // .video {
-  //   display: none;
-  //   visibility: collapse;
-  // }
   .buttonDiv {
     padding-top: 20px;
   }
@@ -141,6 +139,5 @@
     height: 7vh;
     margin: 0 auto;
     letter-spacing: 1px;
-    // transform: none;
   }
 }
