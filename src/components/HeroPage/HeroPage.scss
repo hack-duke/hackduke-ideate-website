@@ -102,13 +102,12 @@
 
 @media (max-width: $tabletBreakpoint) {
   .hero {
-    background-color: #808080; //placeholder background
+    // background-color: #808080; //placeholder background
     height: 55vh;
     padding: 50px 0;
     margin: 0 auto;
   }
   .header {
-    text-align: left;
     font-size: $headerBig;
     padding: 0;
     padding-top: 50px;
@@ -116,21 +115,20 @@
   .subheader {
     line-height: 1em;
     font-size: $infoSize;
-    text-align: left;
-    transform: none;
+    // transform: none;
     padding: 0;
   }
 
-  .videoBlock {
-    display: none;
-    visibility: collapse;
-  }
-  .video {
-    display: none;
-    visibility: collapse;
-  }
+  // .videoBlock {
+  //   display: none;
+  //   visibility: collapse;
+  // }
+  // .video {
+  //   display: none;
+  //   visibility: collapse;
+  // }
   .buttonDiv {
-    padding-top: 50px;
+    padding-top: 20px;
   }
   .registerButton {
     font-size: 3vh;
@@ -140,7 +138,6 @@
     height: 7vh;
     margin: 0 auto;
     letter-spacing: 1px;
-    background: none;
-    transform: none;
+    // transform: none;
   }
 }
