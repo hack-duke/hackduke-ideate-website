@@ -112,9 +112,11 @@
 
 @media (max-width: $tabletBreakpoint) {
   .hero {
-    height: 55vh;
+    height: 60vh;
     padding: 50px 0;
     margin: 0 auto;
+    background: url('static/ideate-background.png') no-repeat;
+    background-size: cover;
   }
   .header {
     font-size: $headerBig;
@@ -127,7 +129,12 @@
     padding: 0;
     padding-bottom: 20px;
   }
-
+  .buttonDiv {
+    padding-top: 20px;
+  }
+  .video {
+    display: none;
+  }
   .registerButton {
     font-size: 3vh;
     border: solid 5px $mainColor;
