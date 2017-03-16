@@ -95,9 +95,11 @@
     visibility: collapse;
     transform: none;
   }
-  .buttonDiv {
-    padding-top: 100px;
+  .subheader {
+    padding-bottom: 20px;
+    font-size: $headerSmall;
   }
+
 }
 
 @media (max-width: $tabletBreakpoint) {
@@ -117,6 +119,7 @@
     font-size: $infoSize;
     // transform: none;
     padding: 0;
+    padding-bottom: 20px;
   }
 
   // .videoBlock {
