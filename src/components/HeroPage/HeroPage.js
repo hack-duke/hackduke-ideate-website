@@ -1,13 +1,23 @@
 import React from 'react'
 import classes from './HeroPage.scss'
 import { Col } from 'react-bootstrap'
+import lightbulb from 'static/lightbulb.png'
+import video from 'static/Ideate2k17.mp4'
+import BrowserDetection from 'react-browser-detection'
+
+const browserHandler = {
+  chrome: () => <source src='Ideate2k17.mp4' type='video/mp4'></source>,
+  default: (browser) => <source src={video} type='video/mp4'></source>
+}
 
 export const HeroPage = () => (
   <div>
     <div className={classes.hero}>
       <div className={classes.videoBlock}>
         <video preload='preload' className={classes.video} autoPlay loop>
-          <source src='Ideate2k17.mp4' type='video/mp4'></source>
+          <BrowserDetection>
+            { browserHandler }
+          </BrowserDetection>
         </video>
       </div>
       <div className={classes.headerSection}>
@@ -19,7 +29,7 @@ export const HeroPage = () => (
           </div>
         </Col>
         <Col md={2}>
-          <img className={classes.lightbulb} src='lightbulb.png' alt='placeholder' />
+          <img className={classes.lightbulb} src={lightbulb} alt='placeholder' />
         </Col>
       </div>
       <div className={classes.buttonDiv}>
