@@ -60,12 +60,16 @@
 	padding-right: 25vw;
 }
 
+.sponsorsRow {
+	display: flex;
+	flex-direction: row;
+}
 @media (max-width: $tabletBreakpoint) {
-	
+
   .header {
     font-size: $headerMedium;
   }
-  
+
 	.sponsorsText {
 		padding-left: 15px;
 		padding-right: 15px;
