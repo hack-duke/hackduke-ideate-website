@@ -81,7 +81,7 @@ class SponsorsPage extends React.Component {
             <h1 className={classes.header}>{this.state.title}</h1>
             <div className={classes.section}>
               <div className={classes.logobox}>
-                <Row>
+                <Row className={classes.sponsorsRow}>
                   {this.renderSponsors()}
                 </Row>
               </div>
