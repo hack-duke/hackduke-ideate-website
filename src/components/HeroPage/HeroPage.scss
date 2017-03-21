@@ -70,13 +70,13 @@
 }
 
 .registerButton {
-  font-size: 5vh;
+  font-size: 40px;
   font-color: $ideateText;
   font-weight: bold;
   border: solid 7px $mainColor;
   padding: 0;
-  width: 40vh;
-  height: 15vh;
+  width: 400px;
+  height: 110px;
   margin: 0 auto;
   display: block;
   opacity: 0.9;
@@ -99,7 +99,7 @@
     padding-top: 0;
   }
   .lightbulb {
-    display: none;
+    opacity: 0;
     visibility: collapse;
     transform: none;
   }
@@ -114,11 +114,17 @@
     font-size: $headerSmall;
   }
   .registerButton {
-      transform: translateY(0);
+    transform: translateY(0);
+  }
+  .buttonDiv {
+    transform: translateY(-50%);
   }
 }
 
 @media (max-width: $tabletBreakpoint) {
+  .lightbulb {
+    display: none;
+  }
   .hero {
     height: 500px;
     padding: 50px 0;
@@ -139,12 +145,13 @@
   }
   .buttonDiv {
     padding-top: 20px;
+    transform: translateY(0);
   }
   .video {
     display: none;
   }
   .registerButton {
-    font-size: 20px;
+    font-size: 25px;
     border: solid 5px $mainColor;
     padding: 0;
     width: 200px;
