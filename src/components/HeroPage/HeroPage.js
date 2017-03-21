@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './HeroPage.scss'
 import { Col } from 'react-bootstrap'
-import lightbulb from 'static/lightbulb.png'
+import lightbulb from 'static/Lightbulb.png'
 import video from 'static/Ideate2k17.mp4'
 import BrowserDetection from 'react-browser-detection'
 
