@@ -1,24 +1,14 @@
 import React from 'react'
 import classes from './HeroPage.scss'
 import { Col } from 'react-bootstrap'
-import lightbulb from 'static/Lightbulb.png'
-import video from 'static/Ideate2k17.mp4'
-import BrowserDetection from 'react-browser-detection'
-
-const browserHandler = {
-  chrome: () => <source src='Ideate2k17.mp4' type='video/mp4'></source>,
-  default: (browser) => <source src={video} type='video/mp4'></source>
-}
+import lightbulb from 'static/lightbulb.png'
+import gif from 'static/Ideate2k17.gif'
 
 export const HeroPage = () => (
   <div>
     <div className={classes.hero}>
       <div className={classes.videoBlock}>
-        <video preload='preload' className={classes.video} autoPlay loop>
-          <BrowserDetection>
-            { browserHandler }
-          </BrowserDetection>
-        </video>
+        <img src={gif} className={classes.video}  alt='placeholder' />
       </div>
       <div className={classes.headerSection}>
         <Col md={10}>
