@@ -24,7 +24,7 @@ export const HeroPage = () => (
       </div>
       <div className={classes.buttonDiv}>
         <a className={classes.registerLink} href={''}>
-          <button className={classes.registerButton}> Register </button>
+          <button className={classes.registerButton}> Register Soon </button>
         </a>
       </div>
     </div>
