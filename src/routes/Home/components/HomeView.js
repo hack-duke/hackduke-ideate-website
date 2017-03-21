@@ -23,7 +23,6 @@ export const HomeView = () => (
     <Scroll.Element name='faqScrollPoint'></Scroll.Element>
     <img src='Section 3 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <FAQ />
-    <Scroll.Element name='sponsorsScrollPoint'></Scroll.Element>
     <img src='Section 1 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <SponsorsPage />
     <Social />
