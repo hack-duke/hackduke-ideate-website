@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from './HeroPage.scss'
 import { Col } from 'react-bootstrap'
+
 export const HeroPage = () => (
   <div>
     <div className={classes.hero}>
@@ -22,7 +23,7 @@ export const HeroPage = () => (
         </Col>
       </div>
       <div className={classes.buttonDiv}>
-        <a className={classes.registerLink} href={'http://my.hackduke.org/login'}>
+        <a className={classes.registerLink} href={''}>
           <button className={classes.registerButton}> Register </button>
         </a>
       </div>

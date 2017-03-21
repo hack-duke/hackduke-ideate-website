@@ -15,7 +15,7 @@ export const FAQ = () => (
         <Col md={5}>
           <FAQSection title={'Is this event open for everyone?'}
             text={'Due to venue capacity, we are only able to accept \
-            the first 135 that apply. Sign up quick!'} />
+            the first 135 that apply. Registration will open shortly!'} />
         </Col>
         <Col md={5}>
           <FAQSection title={'Is transportation provided?'}
