@@ -23,8 +23,8 @@ export const HeroPage = () => (
         </Col>
       </div>
       <div className={classes.buttonDiv}>
-        <a className={classes.registerLink} href={''}>
-          <button className={classes.registerButton}> Register Soon </button>
+        <a className={classes.registerLink} href={'https://hackduke.typeform.com/to/Qp48Z7?route_receive_participant=xxxxx'}>
+          <button className={classes.registerButton}> Register Now </button>
         </a>
       </div>
     </div>

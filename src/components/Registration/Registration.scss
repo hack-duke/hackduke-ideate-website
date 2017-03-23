@@ -13,6 +13,11 @@
   font-weight: bold;
 }
 
+.button, .button:hover, .button:link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 .register{
   padding: 25px 0;
   width: 40%;
