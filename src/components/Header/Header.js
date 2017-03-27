@@ -8,8 +8,6 @@ import classes from './Header.scss'
 // </Nav>
 
 // <NavItem className={classes.navItem} onClick={() =>
-//   this.scrollToElement('speakersScrollPoint')}>Speakers</NavItem>
-// <NavItem className={classes.navItem} onClick={() =>
 //   this.scrollToElement('workshopsScrollPoint')}>Workshops</NavItem>
 
 class Header extends React.Component {
@@ -35,6 +33,8 @@ class Header extends React.Component {
             <Nav>
               <NavItem className={classes.navItem} onClick={() =>
                 this.scrollToElement('aboutScrollPoint')}>About</NavItem>
+              <NavItem className={classes.navItem} onClick={() =>
+                this.scrollToElement('speakersScrollPoint')}>Speakers</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
                 this.scrollToElement('faqScrollPoint')}>FAQ</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
