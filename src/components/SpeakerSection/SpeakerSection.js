@@ -23,6 +23,7 @@ export const SpeakerSection = (props) => (
 
 SpeakerSection.propTypes = {
   name: React.PropTypes.string.isRequired,
+  image: React.PropTypes.string.isRequired,
   text: React.PropTypes.string.isRequired
 }
 
