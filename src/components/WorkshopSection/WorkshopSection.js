@@ -12,6 +12,9 @@ export const WorkshopSection = (props) => (
       <div className={classes.sectionSubheader}>
         {props.presenter}
       </div>
+      <div className={classes.sectionLocation}>
+        {props.location}
+      </div>
       <div className={classes.sectionText}>
         {props.text}
       </div>
@@ -22,6 +25,7 @@ export const WorkshopSection = (props) => (
 WorkshopSection.propTypes = {
   title: React.PropTypes.string.isRequired,
   presenter: React.PropTypes.string.isRequired,
+  location: React.PropTypes.string.isRequired,
   text: React.PropTypes.string.isRequired
 }
 
