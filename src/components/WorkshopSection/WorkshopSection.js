@@ -12,6 +12,9 @@ export const WorkshopSection = (props) => (
       <div className={classes.sectionSubheader}>
         {props.presenter}
       </div>
+      <div className={classes.sectionLocation}>
+        {props.location}
+      </div>
       <div className={classes.sectionText}>
         {props.text}
       </div>
