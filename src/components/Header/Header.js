@@ -7,9 +7,6 @@ import classes from './Header.scss'
 //   <a className={classes.applyButton} eventKey={1} href={'http://my.hackduke.org/login'}>Login</a>
 // </Nav>
 
-// <NavItem className={classes.navItem} onClick={() =>
-//   this.scrollToElement('workshopsScrollPoint')}>Workshops</NavItem>
-
 class Header extends React.Component {
 
   scrollToElement (elem) {
@@ -35,6 +32,8 @@ class Header extends React.Component {
                 this.scrollToElement('aboutScrollPoint')}>About</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
                 this.scrollToElement('speakersScrollPoint')}>Speakers</NavItem>
+              <NavItem className={classes.navItem} onClick={() =>
+                this.scrollToElement('workshopsScrollPoint')}>Workshops</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
                 this.scrollToElement('faqScrollPoint')}>FAQ</NavItem>
               <NavItem className={classes.navItem} onClick={() =>
