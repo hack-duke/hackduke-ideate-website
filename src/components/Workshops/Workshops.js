@@ -11,10 +11,10 @@ import { Col, Row } from 'react-bootstrap'
           //   <WorkshopSection title={'UX Research in Deisgn Thinking'} presenter={'Colette Kolenda'}
           //     location={'Lecture Hall Rd 2'}
           //     text={'Details coming!'} />
-            
+
           //   <WorkshopSection title={'Museum Display: Interactive/Experiential Design'} presenter={'Julia Liu \& Adam ___'}
           //     location={'Lecture Hall Rd 3'}
-          //     text={'Details coming!'} />      
+          //     text={'Details coming!'} />
           // </Col>
 
           // <Col md={6}>
@@ -54,12 +54,12 @@ export const Workshops = () => (
               location={'Community Classroom, Rd 3'}
               text={'Enjoy an interactive session in which you will learn \
               how to conduct the Center for Advanced Hindshight\'s 3B method to diagnose \
-              behavior change on a real-life product.'} /> 
+              behavior change on a real-life product.'} />
           </Col>
           <Col md={6}>
             <WorkshopSection title={'More Coming!'} presenter={'Releasing soon'}
               location={'TBA'}
-              text={'Details to follow'} /> 
+              text={'Details to follow'} />
           </Col>
         </Row>
       </div>
