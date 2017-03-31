@@ -24,31 +24,54 @@ export const Workshops = () => (
           <Col md={6}>
             <WorkshopSection title={'Design in Industry'} presenter={'Stephanie Engle'}
               location={'Lecture Hall Rd 1'} />
+          </Col>
 
-            <WorkshopSection title={'Research in Design Thinking'} presenter={'Colette Kolenda'}
+          <Col md={6}>
+            <WorkshopSection title={'User Research & Design Thinking'} presenter={'Colette Kolenda'}
               location={'Lecture Hall Rd 2'} />
+          </Col>
+        </Row>
 
+        <Row>
+          <Col md={6}>
             <WorkshopSection title={'Museum Display - Interactive/Experiential Design'} presenter={'Julia Liu \& Adam Spring'}
               location={'Lecture Hall Rd 3'} />
+          </Col>
 
+          <Col md={6}>
             <WorkshopSection title={'Storyboarding'} presenter={'Julia Liu'}
               location={'University Classroom Rd 1'} />
+          </Col>
+        </Row>
 
+        <Row>
+          <Col md={6}>
             <WorkshopSection title={'Introduction to Sketch'} presenter={'Kat Zhou'}
               location={'University Classroom Rd 2'} />
           </Col>
+
+          <Col md={6}>
+            <WorkshopSection title={'Designing for Society'} presenter={'TBA'}
+              location={'University Classroom Rd 3'} />
+          </Col>
+        </Row>
+
+        <Row>
           <Col md={6}>
             <WorkshopSection title={'Spatial Audio Design'} presenter={'Aaron Kutnik'}
               location={'Community Classroom, Rd 1'} />
+          </Col>
 
+          <Col md={6}>
             <WorkshopSection title={'Interactive Media & Software'} presenter={'TBA'}
               location={'Community Classroom Rd 2'} />
+          </Col>
+        </Row>
 
+        <Row>
+          <Col md={6}>
             <WorkshopSection title={'Designing for Behavior Change'} presenter={'Elizabeth Kim'}
               location={'Community Classroom, Rd 3'} />
-
-            <WorkshopSection title={'Designing for Society'} presenter={'TBA'}
-              location={'University Classroom Rd 3'} />
           </Col>
         </Row>
       </div>
