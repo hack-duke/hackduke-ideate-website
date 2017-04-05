@@ -16,6 +16,24 @@
   margin: 0;
 }
 
+.sessionOne {
+  padding-top: 20px;
+  font-family: "Avenir", sans-serif;
+  text-align: left;
+  font-size: $headerBig - 1;
+  color: #7BEFFF;
+  font-weight: bold;
+}
+
+.sessionTwo {
+  padding-top: 20px;
+  font-family: "Avenir", sans-serif;
+  text-align: left;
+  font-size: $headerBig - 1;
+  color: #7BEFFF;
+  font-weight: bold;
+}
+
 @media (max-width: $tabletBreakpoint) {
   
   .header {
