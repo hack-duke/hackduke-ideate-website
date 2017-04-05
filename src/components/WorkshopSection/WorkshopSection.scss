@@ -1,14 +1,14 @@
 @import 'src/styles/base';
 
 .section {
-  padding-top: 50px;
+  padding-top: 0px;
   margin: 0 auto;
 }
 
 .sectionHeader {
   font-family: "Avenir", sans-serif;
   text-align: left;
-  font-size: $headerMedium;
+  font-size: $headerSmall;
   color: $ideateText;
   font-weight: bold;
 }
@@ -16,16 +16,9 @@
 .sectionSubheader {
   font-family: "Avenir", sans-serif;
   text-align: left;
-  font-size: $headerSmall;
+  font-size: $headerXSmall;
   color: $ideateText;
   font-weight: bold;
-}
-
-.sectionLocation {
-  font-family: "Avenir", sans-serif;
-  text-align: left;
-  font-size: $headerSmall;
-  color: $ideateText;
 }
 
 .sectionText {
