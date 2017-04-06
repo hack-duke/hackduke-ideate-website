@@ -2,6 +2,7 @@ import React from 'react'
 import Scroll from 'react-scroll'
 import HeroPage from 'components/HeroPage'
 import About from 'components/About'
+import Schedule from 'components/Schedule'
 import Speakers from 'components/Speakers'
 import Workshops from 'components/Workshops'
 import FAQ from 'components/FAQ'
@@ -15,6 +16,8 @@ export const HomeView = () => (
     <HeroPage />
     <Scroll.Element name='aboutScrollPoint'></Scroll.Element>
     <About />
+    <Scroll.Element name='scheduleScrollPoint'></Scroll.Element>
+    <Schedule />
     <img src='Section 1 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <Scroll.Element name='speakersScrollPoint'></Scroll.Element>
     <Speakers />
