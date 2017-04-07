@@ -65,16 +65,16 @@
 }
 
 .buttonDiv {
-  padding-bottom: 1em;
+  padding: auto;
   transform: translateY(-20%);
 }
 
 .registerButton {
-  font-size: 40px;
+  font-size: 3em;
   font-color: $ideateText;
   font-weight: bold;
   border: solid .15em $mainColor;
-  padding: 0em;
+  padding: 0;
   width: 9.5em;
   height: 2.75em;
   margin: 1em auto;
