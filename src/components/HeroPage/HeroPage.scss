@@ -65,7 +65,7 @@
 }
 
 .buttonDiv {
-  padding-bottom: 50px;
+  padding-bottom: 0;
   transform: translateY(-20%);
 }
 
@@ -73,11 +73,11 @@
   font-size: 40px;
   font-color: $ideateText;
   font-weight: bold;
-  border: solid 7px $mainColor;
-  padding: 0;
-  width: 400px;
-  height: 110px;
-  margin: 0 auto;
+  border: solid .15em $mainColor;
+  padding: 0em;
+  width: 9.5em;
+  height: 2.75em;
+  margin: 1em auto;
   display: block;
   opacity: 0.9;
   letter-spacing: 2px;
