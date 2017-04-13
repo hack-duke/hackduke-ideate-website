@@ -11,7 +11,7 @@ export const Workshops = () => (
         <h2 className={classes.sessionOne}> Session One </h2>
         <Row>
           <Col md={4}>
-            <WorkshopSection title={'Design in Industry'} presenter={'Stephanie Engle'} />
+            <WorkshopSection title={'How to Design Reality'} presenter={'Stephanie Engle'} />
           </Col>
 
           <Col md={4}>
@@ -30,7 +30,7 @@ export const Workshops = () => (
           </Col>
 
           <Col md={4}>
-            <WorkshopSection title={'Introduction to Sketch'} presenter={'Kat Zhou'} />
+            <WorkshopSection title={'Introduction to Adobe Illustrator'} presenter={'Kat Zhou'} />
           </Col>
 
           <Col md={4}>
