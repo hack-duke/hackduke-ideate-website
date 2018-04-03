@@ -18,7 +18,7 @@ export const Social = () => (
             <i className={'fa fa-twitter'}></i>
           </a>
         </div>
-        <div className={classes.copyright}>Copyright © 2017 Ideate. </div>
+        <div className={classes.copyright}>Copyright © 2018 Ideate. </div>
       </div>
     </div>
   </div>
