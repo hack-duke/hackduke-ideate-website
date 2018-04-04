@@ -5,11 +5,22 @@
 	width: 75%;
 }
 
-.image	{
-	display: block;
-	max-height: 100%;
-	max-width: 100%;
-	object-fit: contain;
+.header {
+  text-align: right;
+  font-family: "Piers Sans Bold", sans-serif;
+  color: $scheduleColor;
+  font-size: $headerBig;
+  letter-spacing: 0px;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.sectionHeader {
+  font-family: "Avenir", sans-serif;
+  text-align: left;
+  font-size: $headerSmall;
+  color: $ideateText;
+  font-weight: bold;
 }
 
 @media (max-width: $tabletBreakpoint){

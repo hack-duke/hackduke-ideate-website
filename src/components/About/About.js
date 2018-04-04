@@ -5,7 +5,7 @@ import AboutSection from 'components/AboutSection'
 export const About = () => (
   <div>
     <div className={classes.about} >
-      <h1 className={classes.header}> WHAT IS IDEATE? </h1>
+      <h1 className={classes.header}> What is Ideate? </h1>
       <AboutSection title={'Ideate'}
         titleDef={' |\ ˈīdēˌāt\ | vb.'}
         text={'To explore a wide variety of possible solutions through generating a large quantity \

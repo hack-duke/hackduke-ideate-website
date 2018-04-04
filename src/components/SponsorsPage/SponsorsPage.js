@@ -12,12 +12,11 @@ class SponsorsPage extends React.Component {
   constructor () {
     super()
     this.state = {
-      sponsorsUrls: ['http://colab.duke.edu', 'http://cs.duke.edu',
-        'http://epic.com', 'http://mems.duke.edu'],
+      sponsorsUrls: [],
       windowWidth: window.innerWidth,
-      imageUrls: [colab, dukecs, epic, mems],
-      sizes: [3, 3, 3, 4],
-      title: 'SPONSORS',
+      imageUrls: [],
+      sizes: [],
+      title: 'Sponsors',
       aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
                   'do eiusmod tempor incididunt ut labore et dolore magna aliqua',
       sponsorButtonText: 'Sponsor Us'

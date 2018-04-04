@@ -7,15 +7,15 @@ import lightbulb from 'static/Lightbulb.png'
 export const HeroPage = () => (
   <div>
     <div className={classes.hero}>
-      <div className={classes.videoBlock}>
-        <img src='https://ideate.hackduke.org/Ideate2k17.gif' className={classes.video} alt='placeholder' />
+      <div className={classes.imageBlock}>
+        <img src='bg.png' className={classes.image} alt='placeholder' />
       </div>
       <div className={classes.headerSection}>
         <Col md={10}>
-          <div className={classes.header}>IDEATE</div>
+          <div className={classes.header}>Ideate</div>
           <div className={classes.subheader}>
-            The student innovation & design conference <br />
-            April 15, 2017 @ Duke University
+            A student innovation & design conference <br />
+            April 14, 2018 @ Duke University
           </div>
         </Col>
         <Col md={2}>
@@ -24,7 +24,7 @@ export const HeroPage = () => (
       </div>
       <div className={classes.buttonDiv}>
         <a className={classes.registerLink} href={'https://hackduke.typeform.com/to/Qp48Z7?route_receive_participant=xxxxx'}>
-          <button className={classes.registerButton}> Register Now </button>
+          <button className={classes.registerButton}> Register </button>
         </a>
       </div>
     </div>
