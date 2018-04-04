@@ -12,7 +12,9 @@ export const Workshops = () => (
       <div className={classes.sectionContainer}>
         <Row>
           <Col md={4}>
-            <WorkshopSection title={'Coming Soon'} presenter={''} />
+            <WorkshopSection title={'Coming Soon'} presenter={''}
+            session={''}
+            text={''} />
           </Col>
         </Row>
       </div>

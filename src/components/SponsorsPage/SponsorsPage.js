@@ -2,10 +2,6 @@ import React from 'react'
 import classes from './SponsorsPage.scss'
 import SponsorsItem from 'components/SponsorsItem'
 import { Row, Col } from 'react-bootstrap'
-import colab from 'static/sponsors/colab.png'
-import dukecs from 'static/sponsors/dukecs.png'
-import epic from 'static/sponsors/epic.png'
-import mems from 'static/sponsors/mems.png'
 
 class SponsorsPage extends React.Component {
 
