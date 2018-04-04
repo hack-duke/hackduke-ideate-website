@@ -13,8 +13,8 @@ export const Workshops = () => (
         <Row>
           <Col md={4}>
             <WorkshopSection title={'Coming Soon'} presenter={''}
-            session={''}
-            text={''} />
+              session={''}
+              text={''} />
           </Col>
         </Row>
       </div>
