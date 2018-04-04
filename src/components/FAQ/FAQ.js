@@ -15,20 +15,16 @@ export const FAQ = () => (
         <Col md={5}>
           <FAQSection title={'Is this event open for everyone?'}
             text={'Due to venue capacity, we are only able to accept \
-            the first 135 that apply. Registration will open shortly!'} />
+            the first 100 that apply. Registration will open shortly!'} />
         </Col>
         <Col md={5}>
           <FAQSection title={'Is transportation provided?'}
-            text={'Duke has transportation from both West and East Campus to Nasher Museum. \
-            From West, it\'s also a 10 minute walk. If you are driving, there is a parking lot!'} />
+            text={'Duke has transportation from both West and East Campus to The Rubenstein Arts Center. \
+            From West, it\'s also a 10 minute walk. If you are driving, there is a parking lot, and the Nasher Museum\
+            has additional parking across the street!'} />
         </Col>
       </Row>
       <Row style={{'paddingTop': '30px'}}>
-        <Col md={5}>
-          <FAQSection title={'Will we have access to the Nasher galleries?'}
-            text={'Thanks to MUSE, all attendees will have access to the galleries. \
-            Check these awesome collections out during lunch!'} />
-        </Col>
         <Col md={5}>
           <FAQSection title={'Do I need to bring anything specific to the event?'}
             text={'Bring your laptop, student ID/government ID, and your design soul!'} />

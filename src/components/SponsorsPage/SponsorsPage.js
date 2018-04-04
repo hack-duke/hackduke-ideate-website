@@ -2,22 +2,17 @@ import React from 'react'
 import classes from './SponsorsPage.scss'
 import SponsorsItem from 'components/SponsorsItem'
 import { Row, Col } from 'react-bootstrap'
-import colab from 'static/sponsors/colab.png'
-import dukecs from 'static/sponsors/dukecs.png'
-import epic from 'static/sponsors/epic.png'
-import mems from 'static/sponsors/mems.png'
 
 class SponsorsPage extends React.Component {
 
   constructor () {
     super()
     this.state = {
-      sponsorsUrls: ['http://colab.duke.edu', 'http://cs.duke.edu',
-        'http://epic.com', 'http://mems.duke.edu'],
+      sponsorsUrls: [],
       windowWidth: window.innerWidth,
-      imageUrls: [colab, dukecs, epic, mems],
-      sizes: [3, 3, 3, 4],
-      title: 'SPONSORS',
+      imageUrls: [],
+      sizes: [],
+      title: 'Sponsors',
       aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
                   'do eiusmod tempor incididunt ut labore et dolore magna aliqua',
       sponsorButtonText: 'Sponsor Us'
