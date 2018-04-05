@@ -18,16 +18,16 @@ export const HomeView = () => (
     <About />
     <Scroll.Element name='scheduleScrollPoint'></Scroll.Element>
     <Schedule />
-    <img src='Section 1 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
+    <img src='speakers-wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <Scroll.Element name='speakersScrollPoint'></Scroll.Element>
     <Speakers />
-    <img src='Section 2 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
+    <img src='workshops-wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <Scroll.Element name='workshopsScrollPoint'></Scroll.Element>
     <Workshops />
-    <img src='Section 3 Wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
+    <img src='faq-wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <Scroll.Element name='faqScrollPoint'></Scroll.Element>
     <FAQ />
-    <img src='Register now button wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
+    <img src='register-wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <Scroll.Element name='registrationScrollPoint'></Scroll.Element>
     <Registration />
     <Scroll.Element name='sponsorsScrollPoint'></Scroll.Element>

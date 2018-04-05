@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './HeroPage.scss'
 import { Col } from 'react-bootstrap'
-import lightbulb from 'static/Lightbulb.png'
+import lightbulb from 'static/lightbulb2018.png'
 // import gif from 'static/Ideate2k17.gif'
 
 export const HeroPage = () => (
