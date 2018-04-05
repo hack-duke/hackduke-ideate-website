@@ -1,14 +1,14 @@
 import React from 'react'
 import classes from './HeroPage.scss'
 import { Col } from 'react-bootstrap'
-import lightbulb from 'static/Lightbulb.png'
-// import gif from 'static/Ideate2k17.gif'
+import lightbulb from 'static/lightbulb2018.png'
+import gif from 'static/Ideate2k17.gif'
 
 export const HeroPage = () => (
   <div>
     <div className={classes.hero}>
-      <div className={classes.imageBlock}>
-        <img src='bg.png' className={classes.image} alt='placeholder' />
+      <div className={classes.videoBlock}>
+        <img src={gif} className={classes.video} alt='placeholder' />
       </div>
       <div className={classes.headerSection}>
         <Col md={10}>
