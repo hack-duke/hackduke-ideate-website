@@ -7,8 +7,8 @@ import lightbulb from 'static/lightbulb2018.png'
 export const HeroPage = () => (
   <div>
     <div className={classes.hero}>
-      <div className={classes.imageBlock}>
-        <img src='bg.png' className={classes.image} alt='placeholder' />
+      <div className={classes.videoBlock}>
+        <img src='https://ideate.hackduke.org/Ideate2k17.gif' className={classes.video} alt='placeholder' />
       </div>
       <div className={classes.headerSection}>
         <Col md={10}>
