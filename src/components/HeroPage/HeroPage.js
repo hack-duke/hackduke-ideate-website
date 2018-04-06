@@ -15,7 +15,8 @@ export const HeroPage = () => (
           <div className={classes.header}>Ideate</div>
           <div className={classes.subheader}>
             A student innovation & design conference <br />
-            April 14, 2018 @ Duke University
+            April 14, 2018 @ Duke University<br />
+            Rubenstein Arts Center
           </div>
         </Col>
         <Col md={2}>
@@ -23,7 +24,7 @@ export const HeroPage = () => (
         </Col>
       </div>
       <div className={classes.buttonDiv}>
-        <a className={classes.registerLink} href={'https://hackduke.typeform.com/to/Qp48Z7?route_receive_participant=xxxxx'}>
+        <a className={classes.registerLink} href={'https://hackduke.typeform.com/to/nhQDIn?route_receive_participant=xxxxx'}>
           <button className={classes.registerButton}> Register </button>
         </a>
       </div>

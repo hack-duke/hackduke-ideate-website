@@ -12,12 +12,10 @@ export const Speakers = () => (
       <div className={classes.sectionContainer}>
         <Row>
           <Col md={6}>
-            <SpeakerSection name={'Coming Soon'} image={'hackkitty.png'}
-              text={''} />
-          </Col>
-          <Col md={6}>
-            <SpeakerSection name={'Coming Soon'} image={'hackkitty.png'}
-              text={''} />
+            <SpeakerSection name={'Jeremy Magid'} image={'magid.png'}
+              text={'Jeremy is a User Interface/User Experience designer at FoodLogiQ, \
+              a startup that works on mapping the food chain. Jeremy is excited to discuss \
+              with us design thinking in the real world!'} />
           </Col>
         </Row>
       </div>
