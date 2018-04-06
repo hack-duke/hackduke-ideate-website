@@ -29,6 +29,7 @@ export const HomeView = () => (
     <img src='registration-wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <Scroll.Element name='registrationScrollPoint'></Scroll.Element>
     <Registration />
+    <Social />
   </div>
 )
 

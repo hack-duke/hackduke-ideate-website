@@ -8,8 +8,8 @@ export const Schedule = (props) => (
   <div className={classes.schedule}>
     <h1 className={classes.header}>{title}</h1>
     <div className={classes.schedule}>
-	  <img className={classes.image} src={'schedule.png'} alt={'placeholder'} />
-	</div>
+      <img className={classes.image} src={'schedule.png'} alt={'placeholder'} />
+    </div>
   </div>
 )
 
