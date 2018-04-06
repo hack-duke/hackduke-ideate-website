@@ -7,7 +7,6 @@ import Speakers from 'components/Speakers'
 import Workshops from 'components/Workshops'
 import FAQ from 'components/FAQ'
 import Registration from 'components/Registration'
-import SponsorsPage from 'components/SponsorsPage'
 import Social from 'components/Social'
 import classes from './HomeView.scss'
 
@@ -27,11 +26,9 @@ export const HomeView = () => (
     <img src='faq-wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <Scroll.Element name='faqScrollPoint'></Scroll.Element>
     <FAQ />
-    <img src='register-wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
+    <img src='registration-wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <Scroll.Element name='registrationScrollPoint'></Scroll.Element>
     <Registration />
-    <Scroll.Element name='sponsorsScrollPoint'></Scroll.Element>
-    <SponsorsPage />
     <Social />
   </div>
 )

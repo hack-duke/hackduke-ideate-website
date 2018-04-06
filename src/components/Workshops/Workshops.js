@@ -12,7 +12,26 @@ export const Workshops = () => (
       <div className={classes.sectionContainer}>
         <Row>
           <Col md={4}>
-            <WorkshopSection title={'Coming Soon'} presenter={''}
+            <WorkshopSection title={'3D Modeling'} presenter={'Tracy Lu'}
+              session={''}
+              text={''} />
+            <WorkshopSection title={'Duke in the Design Industry'} presenter={'Dorothy Feng'}
+              session={''}
+              text={''} />
+          </Col>
+          <Col md={4}>
+            <WorkshopSection title={'Design Principles'} presenter={'Raquel Salvatella De Prada'}
+              session={''}
+              text={''} />
+            <WorkshopSection title={'Remote Design'} presenter={'Julia Elman'}
+              session={''}
+              text={''} />
+          </Col>
+          <Col md={4}>
+            <WorkshopSection title={'Coming Soon'} presenter={'Ariel Spaulding'}
+              session={''}
+              text={''} />
+            <WorkshopSection title={'Coming Soon'} presenter={'Sinclair Toffa'}
               session={''}
               text={''} />
           </Col>

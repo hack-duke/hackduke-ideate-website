@@ -16,6 +16,11 @@
   margin: 0;
 }
 
+.sectionContainer {
+  width: 100%;
+  margin-left: 25%;
+}
+
 @media (max-width: $tabletBreakpoint){
   .header {
     font-size: $headerMedium;
