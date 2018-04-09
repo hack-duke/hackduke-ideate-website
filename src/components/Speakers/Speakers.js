@@ -31,12 +31,14 @@ export const Speakers = () => (
             <SpeakerSection name={'Tracy Lu'} image={'tracy.jpg'}
               text={'Student @ Duke University,\r\nPrevious Amazon Intern on Spherical Operation Support Team'} />
           </Col>
+        </Row>
+        <Row>
           <Col md={4}>
-            <SpeakerSection name={'Dorothy Feng'} image={'dorothy.jpg'}
+            <SpeakerSection name={'Dorothy Feng'} image={'dorothy.png'}
               text={'Student @ Duke University,\r\nFuture Microsoft UI/UX designer'} />
           </Col>
           <Col md={4}>
-            <SpeakerSection name={'Sinclair Toffa'} image={'sinclair.jpg'}
+            <SpeakerSection name={'Sinclair Toffa'} image={'sinclair.png'}
               text={'Student @ Duke University,\r\nFuture Palantir Engineer'} />
           </Col>
           <Col md={4}>
