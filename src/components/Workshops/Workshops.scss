@@ -28,7 +28,7 @@
   font-family: "Avenir", sans-serif;
   text-align: left;
   font-size: $headerBig - 1;
-  color: #darkPeach;
+  color: $darkPeach;
 }
 
 @media (max-width: $tabletBreakpoint) {

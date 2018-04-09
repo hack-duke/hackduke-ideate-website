@@ -10,11 +10,14 @@ export const Workshops = () => (
     <div className={classes.workshops} >
       <h1 className={classes.header}> {title} </h1>
       <div className={classes.sectionContainer}>
+        <h3 className={classes.sessionOne}> Session One </h3>
         <Row>
           <Col md={4}>
             <WorkshopSection title={'3D Modeling'} presenter={'Tracy Lu'}
               session={''}
               text={''} />
+          </Col>
+          <Col md={4}>
             <WorkshopSection title={'Duke in the Design Industry'} presenter={'Dorothy Feng'}
               session={''}
               text={''} />
@@ -23,14 +26,21 @@ export const Workshops = () => (
             <WorkshopSection title={'Design Principles'} presenter={'Raquel Salvatella De Prada'}
               session={''}
               text={''} />
+          </Col>
+        </Row>
+        <h3 className={classes.sessionTwo}> Session Two </h3>
+        <Row>
+          <Col md={4}>
             <WorkshopSection title={'Remote Design'} presenter={'Julia Elman'}
               session={''}
               text={''} />
           </Col>
           <Col md={4}>
-            <WorkshopSection title={'Coming Soon'} presenter={'Ariel Spaulding'}
+            <WorkshopSection title={'The Inquisitive Designer'} presenter={'Ariel Spaulding'}
               session={''}
               text={''} />
+          </Col>
+          <Col md={4}>
             <WorkshopSection title={'Coming Soon'} presenter={'Sinclair Toffa'}
               session={''}
               text={''} />
