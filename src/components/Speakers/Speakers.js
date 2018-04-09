@@ -25,7 +25,7 @@ export const Speakers = () => (
           </Col>
           <Col md={4}>
             <SpeakerSection name={'Julia Elman'} image={'zapier.png'}
-              text={'Designer @ Zapier'} />
+              text={'Director of Design @ Zapier'} />
           </Col>
           <Col md={4}>
             <SpeakerSection name={'Tracy Lu'} image={'tracy.jpg'}
