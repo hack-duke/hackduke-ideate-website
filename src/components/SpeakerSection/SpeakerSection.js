@@ -14,6 +14,9 @@ export const SpeakerSection = (props) => (
           {props.name}
         </div>
         <div className={classes.sectionText}>
+          {props.session}
+        </div>
+        <div className={classes.sectionText}>
           {props.text}
         </div>
       </Row>
@@ -24,6 +27,7 @@ export const SpeakerSection = (props) => (
 SpeakerSection.propTypes = {
   name: React.PropTypes.string.isRequired,
   image: React.PropTypes.string.isRequired,
+  session: React.PropTypes.string.isRequired,
   text: React.PropTypes.string.isRequired
 }
 
