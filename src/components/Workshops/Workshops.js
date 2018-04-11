@@ -23,7 +23,7 @@ export const Workshops = () => (
               text={''} />
           </Col>
           <Col md={4}>
-            <WorkshopSection title={'Design Principles'} presenter={'Raquel Salvatella De Prada'}
+            <WorkshopSection title={'Design Principles'} presenter={'Raquel Salvatella de Prada'}
               session={''}
               text={''} />
           </Col>
