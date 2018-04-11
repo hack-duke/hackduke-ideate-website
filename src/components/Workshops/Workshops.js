@@ -36,7 +36,7 @@ export const Workshops = () => (
               text={''} />
           </Col>
           <Col md={4}>
-            <WorkshopSection title={'\"Good UX\"= Squishy'} presenter={'Ariel Spaulding'}
+            <WorkshopSection title={'\"Good UX\" = Squishy'} presenter={'Ariel Spaulding'}
               session={''}
               text={''} />
           </Col>
