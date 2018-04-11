@@ -7,6 +7,7 @@ import Speakers from 'components/Speakers'
 import Workshops from 'components/Workshops'
 import FAQ from 'components/FAQ'
 import Registration from 'components/Registration'
+import PartnersPage from 'components/PartnersPage'
 import Social from 'components/Social'
 import classes from './HomeView.scss'
 
@@ -29,6 +30,9 @@ export const HomeView = () => (
     <img src='registration-wire.png' alt='placeholder' className={classes.image} style={{'height': '300px'}} />
     <Scroll.Element name='registrationScrollPoint'></Scroll.Element>
     <Registration />
+    <Scroll.Element name='partnersScrollPoint'></Scroll.Element>
+    <PartnersPage />
+
     <Social />
   </div>
 )
