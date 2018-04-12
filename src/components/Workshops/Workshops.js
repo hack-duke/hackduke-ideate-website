@@ -18,7 +18,7 @@ export const Workshops = () => (
               text={''} />
           </Col>
           <Col md={4}>
-            <WorkshopSection title={'Duke in the Design Industry'} presenter={'Dorothy Feng'}
+            <WorkshopSection title={'Remote Design'} presenter={'Julia Elman'}
               session={''}
               text={''} />
           </Col>
@@ -31,7 +31,7 @@ export const Workshops = () => (
         <h3 className={classes.sessionTwo}> Session Two </h3>
         <Row>
           <Col md={4}>
-            <WorkshopSection title={'Remote Design'} presenter={'Julia Elman'}
+            <WorkshopSection title={'Duke in the Design Industry'} presenter={'Dorothy Feng'}
               session={''}
               text={''} />
           </Col>
@@ -41,7 +41,7 @@ export const Workshops = () => (
               text={''} />
           </Col>
           <Col md={4}>
-            <WorkshopSection title={'Coming Soon'} presenter={'Sinclair Toffa'}
+            <WorkshopSection title={'Design in Sketch'} presenter={'Sinclair Toffa'}
               session={''}
               text={''} />
           </Col>
