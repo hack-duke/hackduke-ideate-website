@@ -31,7 +31,7 @@ export const Workshops = () => (
         <h3 className={classes.sessionTwo}> Session Two </h3>
         <Row>
           <Col md={4}>
-            <WorkshopSection title={'Duke in the Design Industry'} presenter={'Dorothy Feng'}
+            <WorkshopSection title={'Human-Centered Design'} presenter={'Dorothy Feng & Shreya Shankar'}
               session={''}
               text={''} />
           </Col>
